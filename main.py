@@ -52,7 +52,7 @@ def region_selection():
         print('='*100)
 
     def error_handler(capture, error):
-        if isinstance(error, RegionCapture.WebDriverException)
+        if isinstance(error, RegionCapture.WebDriverException):
             print('앱이 지정 영역을 탐지하기 전까지 브라우저를 닫지 마세요.')
             exit()
 
